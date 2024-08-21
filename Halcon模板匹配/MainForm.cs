@@ -725,9 +725,9 @@ namespace Halcon模板匹配
         /// </summary>
         private void lbx_RoiList_SelectedIndexChanged(object sender, EventArgs e)
         {
-            Int64 drawID = long.Parse(lbx_RoiList.SelectedItem.ToString().Split('_')[1]);
-            var drawObj = RoiTools.RoiList.FirstOrDefault(x => x.DrawObject.ID.Equals(drawID));
-            HOperatorSet.DetachDrawingObjectFromWindow(WindowID, drawObj.DrawObject);
+            //Int64 drawID = long.Parse(lbx_RoiList.SelectedItem.ToString().Split('_')[1]);
+            //var drawObj = RoiTools.RoiList.FirstOrDefault(x => x.DrawObject.ID.Equals(drawID));
+            //HOperatorSet.DetachDrawingObjectFromWindow(WindowID, drawObj.DrawObject);
             
         }
     }
